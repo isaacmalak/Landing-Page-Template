@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { NavBar } from "@/components/nav-bar";
 import { themeCss } from "@/theme/colors";
 import "./globals.css";
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <style href="theme" precedence="high">
           {themeCss}
         </style>
+        <NavBar />
         {children}
       </body>
     </html>
