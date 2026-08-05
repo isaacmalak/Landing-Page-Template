@@ -1,0 +1,9 @@
+{
+  // Tailwind IntelliSense registers a color provider for TS/JS (for class-name
+  // swatches), which switches off the "auto" default decorators — and its provider
+  // ignores plain hex literals. "always" keeps the built-in hex pickers in
+  // theme/colors.ts. Scoped to TS so CSS keeps using its own provider.
+  "[typescript]": {
+    "editor.defaultColorDecorators": "always"
+  }
+}
