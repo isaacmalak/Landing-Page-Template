@@ -45,7 +45,7 @@ export function NavBar() {
     <header className="sticky top-0 z-10 border-b border-border flex justify-center bg-background ">
       <nav
         aria-label="Main"
-        className="flex h-16 items-center   px-4 md:w-4xl"
+        className="flex h-16 items-center px-4 md:w-4xl"
       >
         <Link href="/" className="font-semibold">
           {brand}

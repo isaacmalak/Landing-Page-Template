@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Footer } from "@/components/footer";
 import { NavBar } from "@/components/nav-bar";
 import { themeCss } from "@/theme/colors";
 import "./globals.css";
@@ -30,7 +31,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {themeCss}
         </style>
         <NavBar />
-        {children}
+        <div className="flex flex-1 flex-col">{children}</div>
+        <Footer />
       </body>
     </html>
   );
