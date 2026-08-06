@@ -12,6 +12,8 @@ Project scope:
     => Nav Bar 
     => Footer
     => Landing pages
+    => Dialogue 
+    => Drawer
 
 3. Common Utils:
     => Theme (Color Pallet, Fonts)

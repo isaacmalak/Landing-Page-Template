@@ -1,8 +1,18 @@
+import type { Metadata } from "next";
+
 /*
  * Scratch page for eyeballing the palette. Delete it whenever.
  * Class names are literal because Tailwind scans source text — `bg-${token}` would
  * never generate a utility.
  */
+
+// TODO: change this metadata config to what you need (or drop it with the page)
+export const metadata: Metadata = {
+  title: "Theme preview",
+  description: "Internal scratch page for reviewing the color palette.",
+  robots: { index: false, follow: false },
+};
+
 const swatches = [
   "bg-background",
   "bg-surface",
